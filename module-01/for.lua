@@ -1,4 +1,6 @@
 
+-- for loop é muito usado também para percorrer lista. pairs(lista) é onde ele pega a lista desejada e atribui seu indíce para a primeira variavel e o valor do indice para a segunda variavel
+
 local lista = {
     [1] = "junin",
     [2] = "stonks",
@@ -7,7 +9,7 @@ local lista = {
     [5] = "deni",
 };
 
-for k,v in pairs(lista) do
-    print(v, "valor")
-    print(k, "indice")
+for indice,valor in pairs(lista) do
+    print(valor, "valor")
+    print(indice, "indice")
 end
