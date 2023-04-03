@@ -1,0 +1,1 @@
+# script de checagem de distância
