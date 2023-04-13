@@ -30,9 +30,9 @@ local stringSimples = 'olá, isso aqui é uma string.'
 -- Tipos de dados - string
 -- Tipos de dados - number
 
-local numeroInteiro = 123123123123123 /*tipo de dado number, ou seja, você pode guarda número inteiros/não decimais/sem vírgulas e/ou números demais/com vírgulas em um varíavel
+local numeroInteiro = 123123123123123 --tipo de dado number, ou seja, você pode guarda número inteiros/não decimais/sem vírgulas e/ou números demais/com vírgulas em um varíavel
 
-local numeroDecimal = 1231.2312.3123.123
+local numeroDecimal = 1231.2312
 -- Tipos de dados - number
 
 
@@ -49,4 +49,4 @@ local valorFalso = false --tipo de dado boolean, mas especificamente false, tipo
 
 --Podemos fazer um tipo de coisa com variável chamada: reatribuição de valor de uma varíavel; ou seja, você substituíra o valor que uma varíavel já tem por um outro.
 
-numeroDecimal = 123.321 /* aqui pegamos a varíavel chamada "numeroDecimal" e reatribuímos o valor dela para um outro, podemos fazer isso com qualquer varíavel 
+numeroDecimal = 123.321 -- aqui pegamos a varíavel chamada "numeroDecimal" e reatribuímos o valor dela para um outro, podemos fazer isso com qualquer varíavel 

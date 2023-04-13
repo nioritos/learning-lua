@@ -11,15 +11,14 @@ local personal = {
 
 -- para acessar um valor dentro de um objeto, cujo o nome de um valor é uma string, podemos fazer das duas maneiras:
 
-personal.altura
+-- personal.altura
 -- ou
-personal['altura']
-
+-- personal.altura
 -- para acessar um valor dentro de um objeto, cujo o nome de um valor é um number, podemos fazer apenas da seguinte maneira:
 
-personal[7]
+-- personal[7]
 
 
 -- podemos também acessar um objeto dentro de um objeto:
 
-personal[0].profissão
+-- personal[0].profissão
