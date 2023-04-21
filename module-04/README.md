@@ -63,4 +63,10 @@ A source é criada (com o endereço do client específico) globalmente a cada re
  local source = source;
  
 
+OBS: Quando estamos fazendo o tunelamento com o Tunnel, ele automaticamente sabe qual elemento pegar do client para o server ou vice-versa.
+
+## Qual a diferença entre o Proxy e o Tunnel?
+
+Na situação para fazer o tunelamento, o proxy apenas faz um "getInterface" apenas de client para client, de server para server, ele não consegue fazer uma conexão/tunelamento paralelo entre client e server, vale lembrar também que ele não faz essas coisas em tempo real, diferente do Tunnel.
+
 #### isso está sendo documentado apenas para melhorar meu aprendiza e tentar facilitar o aprendizado de outra pessoa que tentar aprender lua e gerenciamento FIVEm. Caso falte algum detalhe, arquivo, explicação, ou houver algo para melhorar, faça um pull request com o que deseja e documente o objetivo deste pull request.
